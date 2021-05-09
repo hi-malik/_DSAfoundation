@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Arrays"
+        "Arrays",
+        "2dArrays"
     ]
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch twodArraydemo",
+            "request": "launch",
+            "mainClass": "twodArraydemo",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch subArrayProblem",
             "request": "launch",
             "mainClass": "subArrayProblem",
