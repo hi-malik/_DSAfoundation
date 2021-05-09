@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch subArrayProblem",
+            "request": "launch",
+            "mainClass": "subArrayProblem",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch inverseOfAnArray",
+            "request": "launch",
+            "mainClass": "inverseOfAnArray",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch rotateAnArray",
+            "request": "launch",
+            "mainClass": "rotateAnArray",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverseAnArray",
+            "request": "launch",
+            "mainClass": "reverseAnArray",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch differenceOfTwoArrays",
             "request": "launch",
             "mainClass": "differenceOfTwoArrays",
