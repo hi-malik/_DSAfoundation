@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch stringCompression",
+            "request": "launch",
+            "mainClass": "stringCompression",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch printAllPalindromicSubstrings",
+            "request": "launch",
+            "mainClass": "printAllPalindromicSubstrings",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch introduction",
             "request": "launch",
             "mainClass": "introduction",
