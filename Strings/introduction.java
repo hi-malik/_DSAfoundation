@@ -27,8 +27,31 @@ public class introduction{
 
         // Substring function
         
+        // String s = "abcd";
+        // System.out.println(s.substring(0,4));
+        // for(int i = 0; i < s.length(); i++){
+            // for(int j = i + 1; j < s.length(); j++){
+                // System.out.println(s.substring(i, j));
+            // }
+        // }
+
+        //String addition
+
+        // String s1 = "Hello";
+        // String s2 = "World";
+        // String s3 = s1 + " " + s2;
+        // System.out.println(s3);
+        
+        // Split String
+
+        // String s = " abc def ghi jkl";
+        // String [] parts = s.split(" ");
+        // for(int i = 0; i < parts.length; i++){
+            // System.out.println(parts[i]);
+        // }
     }
 
 
 }
+
 
