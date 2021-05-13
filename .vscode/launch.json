@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch towerOfHanoi",
+            "request": "launch",
+            "mainClass": "towerOfHanoi",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch printZigZag",
+            "request": "launch",
+            "mainClass": "printZigZag",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch powerLogarithmic",
+            "request": "launch",
+            "mainClass": "powerLogarithmic",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch powerLinear",
+            "request": "launch",
+            "mainClass": "powerLinear",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch printIncreasingDecreasing",
+            "request": "launch",
+            "mainClass": "printIncreasingDecreasing",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch printIncreasing",
+            "request": "launch",
+            "mainClass": "printIncreasing",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch printDecreasing",
+            "request": "launch",
+            "mainClass": "printDecreasing",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch stringCompression",
             "request": "launch",
             "mainClass": "stringCompression",
