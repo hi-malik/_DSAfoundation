@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch benjaminBulb",
+            "request": "launch",
+            "mainClass": "benjaminBulb",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch pythagoreanTriplet",
+            "request": "launch",
+            "mainClass": "pythagoreanTriplet",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeFactorisation",
+            "request": "launch",
+            "mainClass": "primeFactorisation",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch gcdAndlcm",
+            "request": "launch",
+            "mainClass": "gcdAndlcm",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch rotateAnumber",
+            "request": "launch",
+            "mainClass": "rotateAnumber",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch inverseOfAnumber",
+            "request": "launch",
+            "mainClass": "inverseOfAnumber",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch reverseAnumber",
             "request": "launch",
             "mainClass": "reverseAnumber",
