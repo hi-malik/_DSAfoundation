@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch patternType2",
+            "request": "launch",
+            "mainClass": "patternType2",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternType1",
+            "request": "launch",
+            "mainClass": "patternType1",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch benjaminBulb",
             "request": "launch",
             "mainClass": "benjaminBulb",
