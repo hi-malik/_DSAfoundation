@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch patternType10",
+            "request": "launch",
+            "mainClass": "patternType10",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternType9",
+            "request": "launch",
+            "mainClass": "patternType9",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternType8",
+            "request": "launch",
+            "mainClass": "patternType8",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternType7",
+            "request": "launch",
+            "mainClass": "patternType7",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternType6",
+            "request": "launch",
+            "mainClass": "patternType6",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternType5",
+            "request": "launch",
+            "mainClass": "patternType5",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternType4",
+            "request": "launch",
+            "mainClass": "patternType4",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternType3",
+            "request": "launch",
+            "mainClass": "patternType3",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch patternType2",
             "request": "launch",
             "mainClass": "patternType2",
