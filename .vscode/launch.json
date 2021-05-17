@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch hrp",
+            "request": "launch",
+            "mainClass": "hrp",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch hackerRank_pepcoding",
             "request": "launch",
             "mainClass": "hackerRank_pepcoding",
