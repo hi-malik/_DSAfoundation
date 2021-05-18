@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch findFirstAndLastPositionOfElementInSortedArray",
+            "request": "launch",
+            "mainClass": "findFirstAndLastPositionOfElementInSortedArray",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch patternType20",
             "request": "launch",
             "mainClass": "patternType20",
