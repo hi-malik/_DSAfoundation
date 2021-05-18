@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "RecursionAndBacktracking/RecursionInArrays",
         "RecursionAndBacktracking/IntroductionToRecursion",
-        "Practice_"
+        "Practice_",
+        "BasicsOfProgramming/Patterns"
     ]
 }
