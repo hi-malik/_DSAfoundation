@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch pep",
+            "request": "launch",
+            "mainClass": "pep",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch findFirstAndLastPositionOfElementInSortedArray",
             "request": "launch",
             "mainClass": "findFirstAndLastPositionOfElementInSortedArray",
