@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
         "RecursionAndBacktracking/RecursionInArrays",
+        "RecursionAndBacktracking/RecursionInArrayList",
         "RecursionAndBacktracking/IntroductionToRecursion",
         "Practice_",
         "BasicsOfProgramming/Patterns",
         "BasicsOfProgramming/Arrays",
-        "RecursionAndBacktracking/RecursionInArrayList"
+        "RecursionAndBacktracking/RecursionOnTheWayUp"
     ]
 }

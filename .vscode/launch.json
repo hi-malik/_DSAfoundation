@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch printKPC",
+            "request": "launch",
+            "mainClass": "printKPC",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch printSubsequence",
+            "request": "launch",
+            "mainClass": "printSubsequence",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch getmazepathwithjump",
             "request": "launch",
             "mainClass": "getmazepathwithjump",
