@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch getmazepathwithjump",
+            "request": "launch",
+            "mainClass": "getmazepathwithjump",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch getmazepaths",
+            "request": "launch",
+            "mainClass": "getmazepaths",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch getstairpaths",
+            "request": "launch",
+            "mainClass": "getstairpaths",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch getKPC",
+            "request": "launch",
+            "mainClass": "getKPC",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch getSubsequence",
+            "request": "launch",
+            "mainClass": "getSubsequence",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch pep",
             "request": "launch",
             "mainClass": "pep",
