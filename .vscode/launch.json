@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch lastindex",
+            "request": "launch",
+            "mainClass": "lastindex",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch firstindex",
+            "request": "launch",
+            "mainClass": "firstindex",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch maxofanarray",
+            "request": "launch",
+            "mainClass": "maxofanarray",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch displayArrayInReverse",
+            "request": "launch",
+            "mainClass": "displayArrayInReverse",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch printKPC",
             "request": "launch",
             "mainClass": "printKPC",
