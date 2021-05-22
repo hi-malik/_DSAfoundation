@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch printEncoding",
+            "request": "launch",
+            "mainClass": "printEncoding",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch lastindex",
             "request": "launch",
             "mainClass": "lastindex",
