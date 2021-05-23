@@ -5,26 +5,43 @@ public class pep {
 
     public static void main(String[] args) throws Exception {
         Scanner scn = new Scanner(System.in);
-        String str = scn.nextLine();
-        printKPC(str, "");
-
+        int n = scn.nextInt();
+        int chess[][] = new int[n][n];
+        printNQueens(chess, "", 0);
+        
     }
 
-    static String[] codes = {".;,", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz"};
-
-    public static void printKPC(String str, String asf) {
-        if(str.length() == 0){
-            System.out.println(asf);
+    public static void printNQueens(int[][] chess, String qsf, int row) {
+        
+        if(row == chess.length){
+            System.out.println(qsf + ".");
             return;
         }
-        char ch = str.charAt(0);
-        String roq = str.substring(1);
-
-        String codeforch = codes[ch - '0'];
-        for(int i = 0; i < codeforch.length(); i++){
-            char cho = codeforch.charAt(i);
-            printKPC(roq, asf + cho);
+        for(int i = 0; i < chess.length; i++){
+            if(isSafe(chess, row, i)){
+                chess[row][i] = 1;
+                printNQueens(chess, qsf + row + "-" + i + ", ", row + 1);
+                chess[row][i] = 0;    
+            }
         }
     }
-
+    
+    public static boolean isSafe(int chess[][], int row, int col){
+        for(int i = row - 1, j = col; i >= 0; i--){
+            if(chess[row][j] == 1){
+                return false;
+            }
+        }
+        for(int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--){
+            if(chess[row][col] == 1){
+                return false;
+            }
+        }
+        for(int i = row - 1, j = col + 1; i >= 0 && j < chess.length; i--, j++){
+            if(chess[row][col] == 1){
+                return false;
+            }
+        }
+        return true;
+    }
 }
