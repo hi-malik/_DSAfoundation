@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch knightTour",
+            "request": "launch",
+            "mainClass": "RecursionBacktracking.knightTour",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "RecursionBacktracking.Main",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch printtargetsumsubsets",
+            "request": "launch",
+            "mainClass": "RecursionBacktracking.printtargetsumsubsets",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch floodFill",
+            "request": "launch",
+            "mainClass": "RecursionBacktracking.floodFill",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch floodFill",
+            "request": "launch",
+            "mainClass": "floodFill",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch printEncoding",
             "request": "launch",
             "mainClass": "printEncoding",
