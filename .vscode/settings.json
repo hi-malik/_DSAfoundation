@@ -4,9 +4,10 @@
         "RecursionAndBacktracking/RecursionInArrays",
         "RecursionAndBacktracking/RecursionInArrayList",
         "RecursionAndBacktracking/IntroductionToRecursion",
+        "RecursionAndBacktracking",
         "Practice_",
         "BasicsOfProgramming/Patterns",
         "BasicsOfProgramming/Arrays",
-        "RecursionAndBacktracking"
+        "DynamicProgramming/TimeAndSpace"
     ]
 }
