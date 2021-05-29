@@ -6,8 +6,9 @@
         "RecursionAndBacktracking/IntroductionToRecursion",
         "RecursionAndBacktracking",
         "Practice_",
+        "DynamicProgramming/TimeAndSpace",
         "BasicsOfProgramming/Patterns",
         "BasicsOfProgramming/Arrays",
-        "DynamicProgramming/TimeAndSpace"
+        "BasicsOfProgramming/2dArrays"
     ]
 }

@@ -6,50 +6,120 @@ public class ringRotate {
     public static void main(String[] args) throws Exception {
         // write your code here
         Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        int m = scn.nextInt();
+        int n= scn.nextInt();
+        int m= scn.nextInt();
         int arr[][] = new int[n][m];
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
                 arr[i][j] = scn.nextInt();
             }
         }
-
-        int s = scn.nextInt(); //which shell want to rotate
-        int r = scn.nextInt(); //kitne se rotate krna hn
+        
+        int s = scn.nextInt(); //which shell to rotate
+        int r = scn.nextInt(); //how many times rotate;
+        
         rotateShell(arr, s, r);
-        diplay(arr);
+        display(arr);
+        
     }
     public static void rotateShell(int arr[][], int s, int r){
-        int oned[] = filledOnedFromShell(arr, s);
+        int oned[] = fillOnedFromShell(arr, s);
         rotate(oned, r);
-        filledShellFromOned(arr, s, oned);
+        fillShellFromOned(arr, s, oned);
     }
-
-    public static void filledOnedFromShell(int arr[][], int s){
-        //video leave at 18:50
-    }
-    public static void filledShellFromOned(int arr[][], int s, int oned[]){
-
-    }
-
-    public static void rotate(int oned[], int r){
-        r = r % arr.length;
-        if(r < 0){
-            r = r + arr.length;
+    
+    public static int[] fillOnedFromShell(int arr[][], int s){
+        int minr = s - 1;
+        int minc = s - 1;
+        int maxr = arr.length - s;
+        int maxc = arr[0].length - s;
+        int size = 2 *(maxr - minr + maxc - minc);
+        
+        int oned[] = new int[size];
+        
+        //lw
+        int idx = 0;
+        for(int i = minr, j = minc; i <= maxr; i++){
+            oned[idx] = arr[i][j];
+            idx++;
         }
-
-        reverse(oned, 0, oned.length - r -1);
-        reverse(oned, 0, oned.length - r, oned.length - 1);
+        //bw
+        
+        for(int i = maxr, j = minc; j <= maxc; j++){
+            oned[idx] = arr[i][j];
+            idx++;
+        }
+        //rw
+        
+        for(int i = maxr - 1, j = maxc; i >= minr; i--){
+            oned[idx] = arr[i][j];
+            idx++;
+        }
+        //tw
+        
+        for(int i = minr, j = maxc - 1; j >= minc + 1; j--){
+            oned[idx] = arr[i][j];
+            idx++;
+        }
+        
+        
+        return oned;
+    }
+    
+    public static void fillShellFromOned(int arr[][], int s, int oned[]){
+        int minr = s - 1;
+        int minc = s - 1;
+        int maxr = arr.length - s;
+        int maxc = arr[0].length - s;
+        int size = 2 *(maxr - minr + maxc - minc);
+        
+        
+        //lw
+        int idx = 0;
+        for(int i = minr, j = minc; i <= maxr; i++){
+            arr[i][j] = oned[idx];
+            idx++;
+        }
+        //bw
+        
+        for(int i = maxr, j = minc; j <= maxc; j++){
+            arr[i][j] = oned[idx];
+            idx++;
+        }
+        //rw
+        
+        for(int i = maxr - 1, j = maxc; i >= minr; i--){
+            arr[i][j] = oned[idx];
+            idx++;
+        }
+        //tw
+        
+        for(int i = minr, j = maxc - 1; j >= minc + 1; j--){
+            arr[i][j] = oned[idx];
+            idx++;
+        }
+        
+        
+        
+    }
+    
+    public static void rotate(int oned[], int r){
+        r = r % oned.length;
+        if( r < 0){
+            r += oned.length;
+        }
+        
+        reverse(oned, 0, oned.length - r - 1);
+        reverse(oned, oned.length - r, oned.length - 1);
         reverse(oned, 0, oned.length - 1);
     }
-
+    
     public static void reverse(int oned[], int li, int ri){
         while(li < ri){
             int temp = oned[li];
             oned[li] = oned[ri];
             oned[ri] = temp;
-
+            
             li++;
             ri--;
         }
