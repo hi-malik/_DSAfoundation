@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch targetSumPair1",
+            "request": "launch",
+            "mainClass": "targetSumPair1",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch quickSort",
+            "request": "launch",
+            "mainClass": "quickSort",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch mergeSort",
             "request": "launch",
             "mainClass": "mergeSort",
