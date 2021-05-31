@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch mergeTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "mergeTwoSortedArrays",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch sort01",
             "request": "launch",
             "mainClass": "sort01",
