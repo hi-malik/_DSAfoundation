@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch partitionOfAnArray",
+            "request": "launch",
+            "mainClass": "partitionOfAnArray",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch targetSumPair1",
             "request": "launch",
             "mainClass": "targetSumPair1",
