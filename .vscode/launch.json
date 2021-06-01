@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch radixSort",
+            "request": "launch",
+            "mainClass": "radixSort",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch countSort",
             "request": "launch",
             "mainClass": "countSort",
