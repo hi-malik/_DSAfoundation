@@ -4,44 +4,24 @@ import java.util.*;
 public class pep {
 
     public static void main(String[] args) throws Exception {
+        // write your code here
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
-        int chess[][] = new int[n][n];
-        printNQueens(chess, "", 0);
-        
+        int jumpList[] = new int[n];
+        for (int i = 0; i <= n; i++) {
+            jumpList[i] = scn.nextInt();
+        }
+        // Storage
+        int qb[] = new int[n + 1];
+        qb[n] = 1; // Last wale ka pauchne ke sirf 1 raste hn
+        for (int i = n - 1; i >= 0; i--) {
+            int totalways = 0;
+            for (int jump = 1; jump <= jumpList[i] && i + jump <= n; jump++) {
+                totalways += qb[i + jump];
+            }
+            qb[i] = totalways;
+        }
+        System.out.println(qb[0]);
     }
 
-    public static void printNQueens(int[][] chess, String qsf, int row) {
-        
-        if(row == chess.length){
-            System.out.println(qsf + ".");
-            return;
-        }
-        for(int i = 0; i < chess.length; i++){
-            if(isSafe(chess, row, i)){
-                chess[row][i] = 1;
-                printNQueens(chess, qsf + row + "-" + i + ", ", row + 1);
-                chess[row][i] = 0;    
-            }
-        }
-    }
-    
-    public static boolean isSafe(int chess[][], int row, int col){
-        for(int i = row - 1, j = col; i >= 0; i--){
-            if(chess[row][j] == 1){
-                return false;
-            }
-        }
-        for(int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--){
-            if(chess[row][col] == 1){
-                return false;
-            }
-        }
-        for(int i = row - 1, j = col + 1; i >= 0 && j < chess.length; i--, j++){
-            if(chess[row][col] == 1){
-                return false;
-            }
-        }
-        return true;
-    }
 }
