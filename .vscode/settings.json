@@ -9,6 +9,7 @@
         "DynamicProgramming/TimeAndSpace",
         "BasicsOfProgramming/Patterns",
         "BasicsOfProgramming/Arrays",
-        "BasicsOfProgramming/2dArrays"
+        "BasicsOfProgramming/2dArrays",
+        "DynamicProgramming/Dynamic Programming and Greedy"
     ]
 }
