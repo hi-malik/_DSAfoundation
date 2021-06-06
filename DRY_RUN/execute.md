@@ -1,0 +1,1 @@
+From today 7th June 2021 i am saying that i will crack internship at Google or Amazon
