@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch targetSumSubsets",
+            "request": "launch",
+            "mainClass": "targetSumSubsets",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch goldmine",
             "request": "launch",
             "mainClass": "goldmine",
