@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch coinChangeCombination",
+            "request": "launch",
+            "mainClass": "coinChangeCombination",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch targetSumSubsets",
             "request": "launch",
             "mainClass": "targetSumSubsets",
