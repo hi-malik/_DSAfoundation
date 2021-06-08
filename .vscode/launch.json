@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch climbstairwithminimum",
+            "request": "launch",
+            "mainClass": "climbstairwithminimum",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch countEncodings",
             "request": "launch",
             "mainClass": "countEncodings",

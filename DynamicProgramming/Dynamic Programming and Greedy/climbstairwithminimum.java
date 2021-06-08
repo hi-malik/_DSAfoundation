@@ -12,7 +12,8 @@ public class climbstairwithminimum {
             arr[i] = scn.nextInt();
         }
         
-        int qb[] = new int[n + 1];
+        Integer qb[] = new Integer[n + 1];
+        qb[n] = 0;
         for(int i = n-1; i >= 0; i--){
             if(arr[i] > 0){
                 int min = Integer.MAX_VALUE;
