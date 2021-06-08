@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch unboundedKnapsack",
+            "request": "launch",
+            "mainClass": "unboundedKnapsack",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch zeroOneKnapsack",
             "request": "launch",
             "mainClass": "zeroOneKnapsack",
