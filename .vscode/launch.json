@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch coinChangePermutation",
+            "request": "launch",
+            "mainClass": "coinChangePermutation",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch coinChangeCombination",
             "request": "launch",
             "mainClass": "coinChangeCombination",
