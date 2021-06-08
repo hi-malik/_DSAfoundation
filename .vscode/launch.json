@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch zeroOneKnapsack",
+            "request": "launch",
+            "mainClass": "zeroOneKnapsack",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch coinChangePermutation",
             "request": "launch",
             "mainClass": "coinChangePermutation",
