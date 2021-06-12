@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch countabcsubsequence",
+            "request": "launch",
+            "mainClass": "countabcsubsequence",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch climbstairwithminimum",
             "request": "launch",
             "mainClass": "climbstairwithminimum",
