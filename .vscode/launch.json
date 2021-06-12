@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch tilingWith21Tiles",
+            "request": "launch",
+            "mainClass": "tilingWith21Tiles",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch paintHouseManyColor",
             "request": "launch",
             "mainClass": "paintHouseManyColor",
