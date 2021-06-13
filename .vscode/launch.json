@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch friendsPairing",
+            "request": "launch",
+            "mainClass": "friendsPairing",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch tilingWithM1Tiles",
             "request": "launch",
             "mainClass": "tilingWithM1Tiles",
