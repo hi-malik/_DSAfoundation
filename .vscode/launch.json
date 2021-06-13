@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch buyAndSellStockonetransactionallowed",
+            "request": "launch",
+            "mainClass": "buyAndSellStockonetransactionallowed",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch partitionIntoSubstes",
             "request": "launch",
             "mainClass": "partitionIntoSubstes",
