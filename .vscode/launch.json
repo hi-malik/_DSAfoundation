@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch balancedBrackets",
+            "request": "launch",
+            "mainClass": "balancedBrackets",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch duplicateBrackets",
             "request": "launch",
             "mainClass": "duplicateBrackets",
