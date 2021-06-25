@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InfixConversion",
+            "request": "launch",
+            "mainClass": "InfixConversion",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch InfixEvaluation",
             "request": "launch",
             "mainClass": "InfixEvaluation",
