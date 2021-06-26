@@ -27,10 +27,12 @@ public class oopsSwapGame{
         p2.sayHi();
     }
     public static void swap(person psn1, person psn2){
+        psn1 = new person();
         int age = psn1.age;
         psn1.age = psn2.age;
         psn2.age = age;
         
+        psn2 = new person();
         String name = psn1.name;
         psn1.name = psn2.name;
         psn2.name = name;
