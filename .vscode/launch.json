@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ra1",
+            "request": "launch",
+            "mainClass": "revision.ra1",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch re8",
             "request": "launch",
             "mainClass": "revision.re8",
