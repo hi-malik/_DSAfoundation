@@ -17,7 +17,7 @@ public class maxofanarray {
 
     public static int maxOfArray(int[] arr, int idx){
         if(idx == arr.length){
-            return arr[idx];
+            return idx;
         }
         int faith = maxOfArray(arr, idx + 1);
         if(faith > arr[idx]){
