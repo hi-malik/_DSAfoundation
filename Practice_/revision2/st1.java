@@ -20,7 +20,7 @@ public class st1 {
         st.push(0);
         left[0] = -1;
         for (int i = 1; i < a.length; i++) {
-            while (st.size() > 0 && a[i] < a[st.peek()]) {
+            while (st.size() > 0 && a[i] <= a[st.peek()]) {
                 st.pop();
             }
             if (st.size() == 0) {
@@ -36,7 +36,7 @@ public class st1 {
         st.push(a.length - 1);
         right[a.length - 1] = a.length;
         for (int i = a.length - 2; i >= 0; i--) {
-            while (st.size() > 0 && a[i] < a[st.peek()]) {
+            while (st.size() > 0 && a[i] <= a[st.peek()]) {
                 st.pop();
             }
             if (st.size() == 0) {
