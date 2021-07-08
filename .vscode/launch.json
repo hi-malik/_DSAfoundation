@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TwoStacks",
+            "request": "launch",
+            "mainClass": "TwoStacks",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch StackQueueAdapterRemoveEfficient",
             "request": "launch",
             "mainClass": "StackQueueAdapterRemoveEfficient",
