@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RemoveFirstLinkedList",
+            "request": "launch",
+            "mainClass": "RemoveFirstLinkedList",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch DisplayLinkedList",
             "request": "launch",
             "mainClass": "DisplayLinkedList",
