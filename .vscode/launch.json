@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DynamicStack",
+            "request": "launch",
+            "mainClass": "DynamicStack",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch NormalStack",
             "request": "launch",
             "mainClass": "NormalStack",
