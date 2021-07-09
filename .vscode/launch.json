@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseLinkedListPointerIterative",
+            "request": "launch",
+            "mainClass": "ReverseLinkedListPointerIterative",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseLinkedListDataIterative",
             "request": "launch",
             "mainClass": "ReverseLinkedListDataIterative",
