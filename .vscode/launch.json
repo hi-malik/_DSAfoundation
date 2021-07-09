@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseLinkedListDataIterative",
+            "request": "launch",
+            "mainClass": "ReverseLinkedListDataIterative",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch RemoveAtIndexInLinkedList",
             "request": "launch",
             "mainClass": "RemoveAtIndexInLinkedList",
