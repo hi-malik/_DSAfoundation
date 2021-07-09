@@ -12,6 +12,7 @@
         "BasicsOfProgramming/Arrays",
         "BasicsOfProgramming/2dArrays",
         "BasicDataStructure/Stack",
-        "BasicDataStructure/LinkedList"
+        "BasicDataStructure/LinkedList",
+        "BasicsOfProgramming/_Function"
     ]
 }
