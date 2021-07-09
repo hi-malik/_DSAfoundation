@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RemoveLastInLinkedList",
+            "request": "launch",
+            "mainClass": "RemoveLastInLinkedList",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch AddAtIndexInLinkedList",
             "request": "launch",
             "mainClass": "AddAtIndexInLinkedList",
