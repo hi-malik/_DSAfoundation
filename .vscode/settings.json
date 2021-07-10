@@ -8,11 +8,12 @@
         "Practice_",
         "DynamicProgramming/TimeAndSpace",
         "DynamicProgramming/Dynamic Programming and Greedy",
+        "BasicsOfProgramming/_Function",
         "BasicsOfProgramming/Patterns",
         "BasicsOfProgramming/Arrays",
         "BasicsOfProgramming/2dArrays",
         "BasicDataStructure/Stack",
         "BasicDataStructure/LinkedList",
-        "BasicsOfProgramming/_Function"
+        "BasicDataStructure/GenericTree"
     ]
 }
