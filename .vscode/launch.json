@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AnyBAseAddition",
+            "request": "launch",
+            "mainClass": "AnyBAseAddition",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnyBaseToAnyBase",
+            "request": "launch",
+            "mainClass": "AnyBaseToAnyBase",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch AnyBaseYoDecimal",
             "request": "launch",
             "mainClass": "AnyBaseYoDecimal",
