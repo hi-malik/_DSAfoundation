@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LevelOrderLinewiseGenericTree",
+            "request": "launch",
+            "mainClass": "LevelOrderLinewiseGenericTree",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch LevelOrderGenericTree",
             "request": "launch",
             "mainClass": "LevelOrderGenericTree",
