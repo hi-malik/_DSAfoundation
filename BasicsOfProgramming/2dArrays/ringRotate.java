@@ -6,8 +6,8 @@ public class ringRotate {
     public static void main(String[] args) throws Exception {
         // write your code here
         Scanner scn = new Scanner(System.in);
-        int n= scn.nextInt();
-        int m= scn.nextInt();
+        int n = scn.nextInt();
+        int m = scn.nextInt();
         int arr[][] = new int[n][m];
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
@@ -20,100 +20,72 @@ public class ringRotate {
         
         rotateShell(arr, s, r);
         display(arr);
-        
     }
     public static void rotateShell(int arr[][], int s, int r){
-        int oned[] = fillOnedFromShell(arr, s);
+        int oned[] = fillFromShell(arr, s);
         rotate(oned, r);
-        fillShellFromOned(arr, s, oned);
+        fillShell(arr, s, oned);
     }
-    
-    public static int[] fillOnedFromShell(int arr[][], int s){
+    public static int[] fillFromShell(int arr[][], int s){
         int minr = s - 1;
         int minc = s - 1;
         int maxr = arr.length - s;
         int maxc = arr[0].length - s;
-        int size = 2 *(maxr - minr + maxc - minc);
+        int size = 2 * (maxr - minr + maxc - minc);
         
         int oned[] = new int[size];
-        
-        //lw
         int idx = 0;
+        //lw
         for(int i = minr, j = minc; i <= maxr; i++){
             oned[idx] = arr[i][j];
             idx++;
         }
         //bw
-        
-        for(int i = maxr, j = minc; j <= maxc; j++){
+        for(int i = maxr, j = minc + 1; j <= maxc; j++){
             oned[idx] = arr[i][j];
             idx++;
         }
         //rw
-        
         for(int i = maxr - 1, j = maxc; i >= minr; i--){
             oned[idx] = arr[i][j];
             idx++;
         }
         //tw
-        
         for(int i = minr, j = maxc - 1; j >= minc + 1; j--){
             oned[idx] = arr[i][j];
             idx++;
         }
-        
         
         return oned;
     }
-    
-    public static void fillShellFromOned(int arr[][], int s, int oned[]){
+    public static void fillShell(int arr[][], int s, int oned[]){
         int minr = s - 1;
         int minc = s - 1;
         int maxr = arr.length - s;
         int maxc = arr[0].length - s;
-        int size = 2 *(maxr - minr + maxc - minc);
         
-        
-        //lw
         int idx = 0;
+        //lw
         for(int i = minr, j = minc; i <= maxr; i++){
             arr[i][j] = oned[idx];
             idx++;
         }
         //bw
-        
-        for(int i = maxr, j = minc; j <= maxc; j++){
+        for(int i = maxr, j = minc + 1; j <= maxc; j++){
             arr[i][j] = oned[idx];
             idx++;
         }
         //rw
-        
         for(int i = maxr - 1, j = maxc; i >= minr; i--){
             arr[i][j] = oned[idx];
             idx++;
         }
         //tw
-        
         for(int i = minr, j = maxc - 1; j >= minc + 1; j--){
             arr[i][j] = oned[idx];
             idx++;
         }
-        
-        
-        
     }
-    
-    public static void rotate(int oned[], int r){
-        r = r % oned.length;
-        if( r < 0){
-            r += oned.length;
-        }
-        
-        reverse(oned, 0, oned.length - r - 1);
-        reverse(oned, oned.length - r, oned.length - 1);
-        reverse(oned, 0, oned.length - 1);
-    }
-    
     public static void reverse(int oned[], int li, int ri){
         while(li < ri){
             int temp = oned[li];
@@ -123,6 +95,15 @@ public class ringRotate {
             li++;
             ri--;
         }
+    }
+    public static void rotate(int oned[], int r){
+        r = r % oned.length;
+        if(r < 0){
+            r += oned.length;
+        }
+        reverse(oned, 0, oned.length - r - 1);
+        reverse(oned, oned.length - r, oned.length - 1);
+        reverse(oned, 0, oned.length - 1);
     }
 
     public static void display(int[][] arr){
