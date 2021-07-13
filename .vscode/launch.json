@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GenericTreeTraversal",
+            "request": "launch",
+            "mainClass": "GenericTreeTraversal",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch printencodings",
             "request": "launch",
             "mainClass": "printencodings",
