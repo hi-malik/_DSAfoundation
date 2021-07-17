@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DiameterOfAnGenericTree",
+            "request": "launch",
+            "mainClass": "DiameterOfAnGenericTree",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch NodeWithMaximumSubtreeSum",
             "request": "launch",
             "mainClass": "NodeWithMaximumSubtreeSum",
