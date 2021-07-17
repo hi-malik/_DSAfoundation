@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeTwoSortedLinkedLists",
+            "request": "launch",
+            "mainClass": "MergeTwoSortedLinkedLists",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch DiameterOfAnGenericTree",
             "request": "launch",
             "mainClass": "DiameterOfAnGenericTree",
