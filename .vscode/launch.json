@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AreGenericTreeMirrorInShape",
+            "request": "launch",
+            "mainClass": "AreGenericTreeMirrorInShape",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch AreGenericTreeSimilarInShape",
             "request": "launch",
             "mainClass": "AreGenericTreeSimilarInShape",
