@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DisplayReverseLinkedList",
+            "request": "launch",
+            "mainClass": "DisplayReverseLinkedList",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch KReverseLinkedList",
             "request": "launch",
             "mainClass": "KReverseLinkedList",
