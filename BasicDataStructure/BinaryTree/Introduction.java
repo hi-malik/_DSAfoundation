@@ -22,6 +22,19 @@ public class Introduction{
         }
         
     }
+    public static void Display(Node node){
+        if(node == null){
+            return;
+        }
+        String str = "";
+        str += node.left == null ? "." : node.left.data + "";
+        str += " <- " + node.data + " -> ";
+        str += node.right == null ? "." : node.right.data + "";
+        System.out.println(str);
+        
+        Display(node.left);
+        Display(node.right);
+    }
     public static void main(String[] args){
         Integer arr[] = {50, 25, 12, null, null, 37, 30, null, null, null, 75, 62, null, 70, null, null, 87, null, null};
         Node root = new Node(arr[0], null, null);
@@ -60,5 +73,6 @@ public class Introduction{
                 st.pop();
             }
         }
+        Display(root);
     }
 }
