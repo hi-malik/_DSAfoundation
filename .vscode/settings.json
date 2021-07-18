@@ -9,12 +9,13 @@
         "DynamicProgramming/TimeAndSpace",
         "DynamicProgramming/Dynamic Programming and Greedy",
         "BasicsOfProgramming/_Function",
+        "BasicsOfProgramming/Strings",
         "BasicsOfProgramming/Patterns",
         "BasicsOfProgramming/Arrays",
         "BasicsOfProgramming/2dArrays",
         "BasicDataStructure/Stack",
         "BasicDataStructure/LinkedList",
         "BasicDataStructure/GenericTree",
-        "BasicsOfProgramming/Strings"
+        "BasicDataStructure/BinaryTree"
     ]
 }
