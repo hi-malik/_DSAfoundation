@@ -5,47 +5,44 @@ public class stringCompression {
 
 	public static String compression1(String str){
 		// write your code here
-        String s = str.charAt(0) + "";
-        for(int i = 1; i < str.length(); i++){
-            char current = str.charAt(i);
-            char previous = str.charAt(i - 1);
-
-            if(current != previous){
-                s += current;
-            }
-        }
+		String s = str.charAt(0) + "";
+		for(int i = 1; i < str.length(); i++){
+		    char curr = str.charAt(i);
+		    char prev = str.charAt(i - 1);
+		    
+		    if(curr != prev){
+		        s += curr;
+		    }
+		}
 
 		return s;
 	}
 
 	public static String compression2(String str){
 		// write your code here
-
         String s = str.charAt(0) + "";
         int count = 1;
         for(int i = 1; i < str.length(); i++){
-            char current = str.charAt(i);
-            char previous = str.charAt(i - 1);
-
-            
-            if( current == previous){
-                count++;
+          char current = str.charAt(i);
+          char backward = str.charAt(i - 1);
+    
+          if( current == backward){
+            count ++;
+          }
+          else{
+            if( count != 1){
+              s = s + count;
+              count = 1;
             }
-            else{
-                if( count != 1){
-                    s += count;
-                    count = 1;
-                }
-                s += current;
-            }
+            s = s + current;
+          }
+        }
+        if( count > 1 ){
+          s = s + count;
+          count = 1; 
         }
 
-        if(count > 1){
-            s += count;
-            count = 1;
-        }
-
-        return s;
+ 		return s;
 	}
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
