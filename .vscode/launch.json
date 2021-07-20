@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IterativePrePostInOrderTraversalOfBinaryTree",
+            "request": "launch",
+            "mainClass": "IterativePrePostInOrderTraversalOfBinaryTree",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch LevelOrderTraversalInBinaryTree",
             "request": "launch",
             "mainClass": "LevelOrderTraversalInBinaryTree",
