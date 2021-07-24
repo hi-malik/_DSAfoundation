@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TiltOfBinaryTree",
+            "request": "launch",
+            "mainClass": "TiltOfBinaryTree",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch DiameterOfABinaryTree",
             "request": "launch",
             "mainClass": "DiameterOfABinaryTree",
