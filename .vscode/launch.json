@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintInRange",
+            "request": "launch",
+            "mainClass": "PrintInRange",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch LCAofBST",
             "request": "launch",
             "mainClass": "LCAofBST",
