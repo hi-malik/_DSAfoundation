@@ -16,6 +16,7 @@
         "BasicDataStructure/Stack",
         "BasicDataStructure/LinkedList",
         "BasicDataStructure/GenericTree",
-        "BasicDataStructure/BinaryTree"
+        "BasicDataStructure/BinaryTree",
+        "BasicDataStructure/BinarySearchTree"
     ]
 }

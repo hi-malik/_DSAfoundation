@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SizeSumMaxMinFindInBST",
+            "request": "launch",
+            "mainClass": "SizeSumMaxMinFindInBST",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch LargestBSTSubtree",
             "request": "launch",
             "mainClass": "LargestBSTSubtree",
