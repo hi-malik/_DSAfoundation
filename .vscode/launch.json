@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RemoveNodeFromBST",
+            "request": "launch",
+            "mainClass": "RemoveNodeFromBST",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch AddNodeToBST",
             "request": "launch",
             "mainClass": "AddNodeToBST",
