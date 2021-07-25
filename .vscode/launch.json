@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReplaceWithSumOfLargerInBST",
+            "request": "launch",
+            "mainClass": "ReplaceWithSumOfLargerInBST",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch RemoveNodeFromBST",
             "request": "launch",
             "mainClass": "RemoveNodeFromBST",
