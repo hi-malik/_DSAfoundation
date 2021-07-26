@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PriorityQueueUsingHeap",
+            "request": "launch",
+            "mainClass": "PriorityQueueUsingHeap",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch MergeKSortedLists",
             "request": "launch",
             "mainClass": "MergeKSortedLists",
