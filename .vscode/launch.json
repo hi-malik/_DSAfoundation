@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GetCommonElement2",
+            "request": "launch",
+            "mainClass": "GetCommonElement2",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch GetCommonElements1",
             "request": "launch",
             "mainClass": "GetCommonElements1",
