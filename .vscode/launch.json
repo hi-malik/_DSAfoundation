@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestConsecutiveSequenceOfElements",
+            "request": "launch",
+            "mainClass": "LongestConsecutiveSequenceOfElements",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch GetCommonElement2",
             "request": "launch",
             "mainClass": "GetCommonElement2",
