@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch KLargestElement",
+            "request": "launch",
+            "mainClass": "KLargestElement",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch LongestConsecutiveSequenceOfElements",
             "request": "launch",
             "mainClass": "LongestConsecutiveSequenceOfElements",
