@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintAllPaths",
+            "request": "launch",
+            "mainClass": "Graphs.PrintAllPaths",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch HasPath",
             "request": "launch",
             "mainClass": "Graphs.HasPath",
