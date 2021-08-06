@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GetConnectedComponentsOfAGraph",
+            "request": "launch",
+            "mainClass": "Graphs.GetConnectedComponentsOfAGraph",
+            "projectName": "_DSA_62936137"
+        },
+        {
+            "type": "java",
             "name": "Launch MultiSolverGraph",
             "request": "launch",
             "mainClass": "Graphs.MultiSolverGraph",
