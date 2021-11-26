@@ -1,26 +1,25 @@
 // package revision2;
 
-// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-// 
-// You may assume that each input would have exactly one solution, and you may not use the same element twice.
-// 
-// You can return the answer in any order.
+// Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
-// Input: nums = [2,7,11,15], target = 9
-// Output: [0,1]
+// Input: root = [1,null,2,3]
+// Output: [1,3,2]
 
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        int[] result = new int[2];
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
-                    result[0] = i;
-                    result[1] = j;
-                    return result;
-                }
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        if (root == null) return res;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
             }
+            cur = stack.pop();
+            res.add(cur.val);
+            cur = cur.right;
         }
-        return result;
+        return res;
     }
 }
