@@ -1,25 +1,24 @@
-// package revision2;
+// Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
 
-// Given the root of a binary tree, return the inorder traversal of its nodes' values.
+// Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
-// Input: root = [1,null,2,3]
-// Output: [1,3,2]
+// Input: x = 123
+// Output: 321
 
 class Solution {
-    public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        if (root == null) return res;
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode cur = root;
-        while (cur != null || !stack.isEmpty()) {
-            while (cur != null) {
-                stack.push(cur);
-                cur = cur.left;
+    public int reverse(int x) {
+        int result = 0;
+        while (x != 0) {
+            int pop = x % 10;
+            x /= 10;
+            if (result > Integer.MAX_VALUE / 10 || (result == Integer.MAX_VALUE / 10 && pop > 7)) {
+                return 0;
             }
-            cur = stack.pop();
-            res.add(cur.val);
-            cur = cur.right;
+            if (result < Integer.MIN_VALUE / 10 || (result == Integer.MIN_VALUE / 10 && pop < -8)) {
+                return 0;
+            }
+            result = result * 10 + pop;
         }
-        return res;
+        return result;        
     }
 }
