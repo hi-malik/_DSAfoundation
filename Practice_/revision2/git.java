@@ -32,25 +32,19 @@ class Solution {
     public int minimumDeletions(int[] nums) {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
-        int count = 0;
         for(int i = 0; i < nums.length; i++){
-            if(nums[i] < min){
-                min = nums[i];
-            }
-            if(nums[i] > max){
-                max = nums[i];
-            }
+            min = Math.min(min, nums[i]);
+            max = Math.max(max, nums[i]);
         }
         for(int i = 0; i < nums.length; i++){
             if(nums[i] == min){
-                count++;
+                nums[i] = max;
             }
         }
         for(int i = 0; i < nums.length; i++){
             if(nums[i] == max){
-                count++;
+                nums[i] = min;
             }
         }
-        return count;
-    }
-            
+        
+
